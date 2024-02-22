@@ -229,4 +229,84 @@ body {
   height: 17px;
   background-color: var(--premium-pink);
   border-radius: 50%;
+}
+
+.meet {
+  padding-top: 200px;
+  padding-bottom: 250px;
+}
+
+.meet-img-right {
+  position: absolute;
+  z-index: 1;
+  top: 41px;
+  left: 185px;
+}
+
+.meet-img-left {
+  position: absolute;
+  top: -103px;
+  left: -15px;
+}
+
+.meet-text {
+  width: 528px;
+  margin-left: auto;
+}
+
+.meet-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: var(--premium-pink);
+  margin-bottom: 6px;
+}
+
+.meet-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.3125;
+  color: var(--grey-copy);
+  margin-bottom: 27px;
+}
+
+.meet-btn {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.3125;
+  color: var(--premium-pink);
+  border: 2px solid var(--premium-pink);
+  border-radius: 38px;
+  padding: 13.5px 63px;
+  background-color: var(--white);
+  position: relative;
+}
+
+.meet-btn:hover {
+  color: var(--pink-hover);
+  border: 2px solid var(--pink-hover);
+}
+
+.meet-btn:focus {
+  outline: var(--pink-subtle) 8px solid;
+}
+
+.meet-btn:active {
+  outline: none;
+}
+
+.meet-btn:active::before {
+  content: "";
+  width: 59px;
+  height: 57px;
+  background-color: var(--pink-subtle);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 3px;
+  right: 30px;
+  z-index: 4;
+}
+
+.meet-info {
+  position: relative;
+  z-index: 5;
 }/*# sourceMappingURL=main.css.map */
