@@ -1,0 +1,80 @@
+.header {
+    padding: 25px 0;
+    background-color: var(--premium-pink);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-container {
+    max-width: 1395px;
+    padding: 0 16px;
+    margin: 0 auto;
+    outline: lawngreen 3px dashed;
+    display: flex;
+}
+
+.header-logo {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.095;
+    color: var(--white);
+}
+
+.header-accent{
+    color: var(--pink-subtle);
+}
+
+.header-list {
+    display: flex;
+    gap: 76px;
+    align-items: center;
+    margin-left: 172px;
+}
+
+.header-item {
+}
+
+.header-link {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.095;
+    color: var(--white);
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: var(--pink-subtle);
+}
+
+.header-search {
+    fill: var(--white);
+}
+
+.header-link:hover .header-search,
+.header-link:focus .header-search {
+    fill: var(--pink-subtle);
+}
+
+.header-btn {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.095;
+    color: var(--premium-pink);
+    border-radius: 200px;
+    background: var(--white);
+    padding: 16px 62px;
+    margin-left: auto;
+}
+
+.header-btn:hover {
+    color: var(--pink-hover);
+}
+
+.header-btn:focus {
+    outline: var(--pink-subtle) 8px solid;
+}
