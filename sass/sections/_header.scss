@@ -5,13 +5,11 @@
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .header-container {
     max-width: 1395px;
-    padding: 0 16px;
-    margin: 0 auto;
-    outline: lawngreen 3px dashed;
     display: flex;
 }
 
@@ -69,6 +67,7 @@
     background: var(--white);
     padding: 16px 62px;
     margin-left: auto;
+    position: relative;
 }
 
 .header-btn:hover {
@@ -76,5 +75,10 @@
 }
 
 .header-btn:focus {
-    outline: var(--pink-subtle) 8px solid;
+    background-color: #EFF0F6;
+}
+
+.header-btn:active {
+    background-color: var(--white);
+    color: var(--premium-pink);
 }
