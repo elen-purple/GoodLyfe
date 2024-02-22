@@ -1,0 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+    background-color: var(--premium-pink);
+    color: var(--white);
+}
