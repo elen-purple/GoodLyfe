@@ -45,12 +45,12 @@ body {
 }
 
 *::-moz-selection {
-  background-color: var(--premium-pink);
+  background-color: var(--pink-hover);
   color: var(--white);
 }
 
 *::selection {
-  background-color: var(--premium-pink);
+  background-color: var(--pink-hover);
   color: var(--white);
 }
 
