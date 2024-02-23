@@ -43,10 +43,12 @@
 
 .hero-btn:focus {
     outline: var(--pink-subtle) 8px solid;
+    background-color: var(--premium-pink);
 }
 
 .hero-btn:active{
     outline: none;
+    background-color: var(--premium-pink);
 }
 
 .hero-btn:active::before {

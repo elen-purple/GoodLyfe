@@ -137,6 +137,7 @@ body {
 
 .header-btn:focus {
   background-color: #EFF0F6;
+  color: var(--premium-pink);
 }
 
 .header-btn:active {
@@ -189,10 +190,12 @@ body {
 
 .hero-btn:focus {
   outline: var(--pink-subtle) 8px solid;
+  background-color: var(--premium-pink);
 }
 
 .hero-btn:active {
   outline: none;
+  background-color: var(--premium-pink);
 }
 
 .hero-btn:active::before {
@@ -288,10 +291,14 @@ body {
 
 .meet-btn:focus {
   outline: var(--pink-subtle) 8px solid;
+  color: var(--premium-pink);
+  border: 2px solid var(--premium-pink);
 }
 
 .meet-btn:active {
   outline: none;
+  color: var(--premium-pink);
+  border: 2px solid var(--premium-pink);
 }
 
 .meet-btn:active::before {
@@ -309,4 +316,97 @@ body {
 .meet-info {
   position: relative;
   z-index: 5;
+}
+
+.become {
+  padding-top: 231px;
+  padding-bottom: 247px;
+  background-image: linear-gradient(rgba(57, 57, 57, 0.22), rgba(57, 57, 57, 0.22)), url(../../imgs/become-bg.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.become-title {
+  font-weight: 700;
+  font-size: 60px;
+  text-align: center;
+  color: var(--white);
+  text-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.46);
+  margin-bottom: 4px;
+}
+
+.become-desc {
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  color: var(--white);
+  text-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  width: 435px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.become-btn {
+  background-color: var(--premium-pink);
+  padding: 15.5px 77.5px;
+  border-radius: 38px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.become-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2.3125;
+  color: var(--white);
+}
+
+.become-btn:hover {
+  background-color: var(--pink-hover);
+}
+
+.become-btn:focus {
+  outline: var(--pink-subtle) 8px solid;
+  background-color: var(--premium-pink);
+}
+
+.become-btn:active {
+  outline: none;
+  background-color: var(--premium-pink);
+}
+
+.become-btn:active::before {
+  content: "";
+  width: 59px;
+  height: 57px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 30px;
+  z-index: 4;
+}
+
+.become-list {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  position: absolute;
+  bottom: -221px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.become-item {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.become-checked {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background-color: var(--premium-pink);
 }/*# sourceMappingURL=main.css.map */

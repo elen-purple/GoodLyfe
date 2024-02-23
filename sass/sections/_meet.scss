@@ -55,10 +55,14 @@
 
 .meet-btn:focus {
     outline: var(--pink-subtle) 8px solid;
+    color: var(--premium-pink);
+    border: 2px solid var(--premium-pink);
 }
 
 .meet-btn:active {
     outline: none;
+    color: var(--premium-pink);
+    border: 2px solid var(--premium-pink);
 }
 
 .meet-btn:active::before {
