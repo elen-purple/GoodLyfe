@@ -1,0 +1,53 @@
+.app {
+    padding-top: 112px;
+    padding-bottom: 76px;
+    background-color: var(--premium-pink);
+}
+
+.app-wrap {
+    padding-left: 83px;
+}
+
+.app-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--white);
+    margin-bottom: 4px;
+}
+
+.app-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2.3125;
+    color: var(--white);
+    width: 489px;
+}
+
+.app-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 18px;
+}
+
+.app-list {
+    display: flex;
+    gap: 12px;
+    margin-top: 9px;
+}
+
+.app-item {}
+
+.app-icon {}
+
+.app-img-left {
+    position: absolute;
+    top: -149px;
+    left: 642px;
+}
+
+.app-img-right {
+    position: absolute;
+    top: -14px;
+    left: 906px;
+}
