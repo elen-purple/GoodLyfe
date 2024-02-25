@@ -151,7 +151,7 @@ body {
 
 .hero {
   padding: 241px 0 216px 0;
-  background-image: url(/imgs/hero-bg.webp);
+  background-image: url(./imgs/hero-bg.webp);
   background-size: cover;
   background-position: center;
 }
@@ -321,7 +321,7 @@ body {
 .become {
   padding-top: 231px;
   padding-bottom: 247px;
-  background-image: linear-gradient(rgba(57, 57, 57, 0.22), rgba(57, 57, 57, 0.22)), url(/imgs/become-bg.webp);
+  background-image: linear-gradient(rgba(57, 57, 57, 0.22), rgba(57, 57, 57, 0.22)), url(./imgs/become-bg.webp);
   background-size: cover;
   background-position: center;
 }
